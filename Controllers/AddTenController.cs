@@ -10,8 +10,12 @@ namespace WebApplication1.Controllers
     public class AddTenController : ApiController
     {
 
+        /// <summary>
+        /// This method receives an int and adds 10 to it
+        /// </summary>
+        /// <param name="id">number</param>
+        /// <returns>number</returns>
         // GET api/addten/5
-        // This method receives an int and adds 10 to it
         public int Get(int id)
         {
             return id + 10;

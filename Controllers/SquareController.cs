@@ -9,9 +9,13 @@ namespace WebApplication1.Controllers
 {
     public class SquareController : ApiController
     {
-
+        /// <summary>
+        /// This method receives an int and multiplies it by itself
+        /// </summary>
+        /// <param name="id">this is an integer</param>
+        /// <returns>number</returns>
         // GET api/square/5
-        // This method receives an int and multiplies it by itself
+
         public int Get(int id)
         {
             return id * id;

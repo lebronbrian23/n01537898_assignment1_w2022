@@ -9,8 +9,12 @@ namespace WebApplication1.Controllers
 {
     public class NumberMachineController : ApiController
     {
+        /// <summary>
+        /// This method takes a numbert and applies 4 mathematical operations to it
+        /// </summary>
+        /// <param name="id"> this an integer</param>
+        /// <returns> a number</returns>
         // GET api/numbermachine/4
-        // This method takes an int and applies 4 mathematical operations to it
         public int Get(int id)
         {
            
